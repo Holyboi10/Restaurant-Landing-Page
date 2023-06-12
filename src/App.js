@@ -17,7 +17,7 @@ function App() {
 
       </div>
       {/*  */}
-      <div className='color-gray'>
+      {/* <div className='color-gray'>
       <div className='content'>
         <div className='content-flex'>
           <ul><li><h3>Fresh Food</h3></li></ul>
@@ -34,10 +34,10 @@ function App() {
         </div>
 
       </div>
-      </div>
+      </div> */}
 
       {/*  */}
-      <div className='About'>
+      {/* <div className='About'>
         <div className='About-image'>
 
         </div>
@@ -53,8 +53,35 @@ function App() {
 
         </div>
 
-      </div>
-      
+      </div> */}
+      {/*  */}
+      {/* <div className='Experience'>
+        <div className='experience-cont'>
+          <div className='exp-image'>
+
+          </div>
+          <div className='exp-button'>
+            <button>12 years of experience</button>
+            <button>200 Daily visitors</button>
+            <button>30 Honours and Awards</button>
+            <button> 2000 Client Reviews</button>
+
+          </div>
+          <div className='exp-imageB'>
+            <div className='imageB-one'>
+
+            </div>
+            <div className='imageB-two'>
+              
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div> */}
+
 
       
 
