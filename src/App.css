@@ -66,18 +66,15 @@ a{
   margin-top: 70px;
   font-size: 3rem;
   font-weight: 500;
-  /* color: green; */
-  /* color: red; */
-  /* color:rgb(7, 85, 7); */
   color: white;
   
 }
 .hero-content button{
   width: 150px;
   margin-top: 20px;
-  /* background-color: orangered; */
+  background-color: orangered;
   height: 40px;
-  background-color: inherit;
+  /* background-color: inherit; */
   border: 1px solid whitesmoke;
   font-size: 0.9rem;
   color: whitesmoke;
@@ -232,6 +229,88 @@ a{
 
 
 }
+.chef{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  font-weight: 300;
+}
+.recipes{
+  /* border: 1px solid green; */
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+}
+.recipe-a{
+  background-image: url(chips.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+  height: 100%;
+}
+.recipe-c{
+  background-image: url(eatA.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+  height: 100%;
+}
+.recipe-b{
+  background-image: url(EatD.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+  height: 100%;
+}
+.chef-b h3{
+  font-weight: 500;
+  color:rgb(7, 85, 7);
+  margin-top: 150px;
+
+}
+.chef-a h1{
+  font-weight: 500;
+  color:rgb(7, 85, 7);
+
+}
+.footer{
+  background-color: black;
+  height: 50vh;
+  margin-top: 20px;
+  color: white;
+}
+.footer-content{
+  /* border: 1px solid red; */
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer-content input{
+  height: 30px;
+  padding: 5px;
+  font-weight: 300;
+}
+.footer-content h3{
+  font-weight: 500;
+  /* color: orangered; */
+  color:rgb(7, 85, 7);
+}
+.footer-content button{
+  height: 40px;
+  padding: 5px;
+  font-weight: 300;
+  border: none;
+  background-color: rgb(7, 85, 7);
+  /* background-color: orangered; */
+  color: white;
+}
 @media screen and (max-device-width: 820px){
   .hero{
     /* border: 1px solid red; */
@@ -289,19 +368,21 @@ a{
   }
   .Experience{
     /* border: 1px solid green; */
-    height: 300vh;
+    height: 200vh;
     margin-top: 30px;
   }
   .exp-image{
     /* border: 1px solid red; */
-    width: 100%;
+    width: 90%;
     height: 50%;
+    margin: auto;
   }
   .exp-button{
     display: flex;
     flex-direction: column;
     justify-self: unset;
-    height: 35%;
+    height: 50%;
+    font-size: 0.9rem;
   }
   .exp-button button{
     width: 90vw;
@@ -312,5 +393,38 @@ a{
     width: 95%;
     margin: auto;
     height: 50%;
+  }
+  .chef{
+    flex-direction: column;
+    height: 100%;
+  }
+  .chef-b h3{
+    margin-top: 0;
+  }
+  .recipes{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+  }
+  .recipe-a{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .recipe-b{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .recipe-c{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .footer{
+    height: fit-content;
+  }
+  .footer-content{
+  flex-direction: column;
   }
 }

@@ -5,13 +5,14 @@ import About from './About';
 import Contact from './Contact';
 import Hero from './Hero';
 import Body from './Body';
-
+import Middle from './Middle';
 
 function App() {
   return (
     <div className="App">
       <Hero/>
       <Body/>
+      <Middle/>
      
       
       {/*  */}
